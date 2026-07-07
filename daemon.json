@@ -1,0 +1,25 @@
+{
+  "builder": {
+    "gc": {
+      "defaultKeepStorage": "100GB",
+      "enabled": true,
+      "maxUnusedBuildCacheSize": "50GB",
+      "policy": [
+        {
+          "all": true,
+          "keepStorage": "10GB"
+        }
+      ]
+    }
+  },
+  "experimental": false,
+  "features": {
+    "buildkit": true
+  },
+  "log-driver": "json-file",
+  "log-opts": {
+    "max-size": "10m",
+    "max-file": "3"
+  },
+  "storage-driver": "overlay2"
+}

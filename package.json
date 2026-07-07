@@ -1,0 +1,10 @@
+{
+  "name": "progree-devops-project",
+  "private": true,
+  "workspaces": ["backend", "frontend"],
+  "scripts": {
+    "lint": "echo \"Lint step placeholder\"",
+    "test": "echo \"Test step placeholder\"",
+    "build": "npm run build --workspace frontend"
+  }
+}
