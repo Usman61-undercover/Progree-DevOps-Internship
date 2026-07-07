@@ -186,13 +186,13 @@ Show backend and db both running.
 | db       | 5432           | 5432      | PostgreSQL database  |
 
 ### 6. Files in Repository
-- ✅ [Dockerfile](../../Dockerfile)
-- ✅ [.dockerignore](../../.dockerignore)
-- ✅ [docker-compose.yml](../../docker-compose.yml)
-- ✅ [.env.example](../../.env.example)
-- ✅ [backend/package.json](../../backend/package.json)
-- ✅ [backend/server.js](../../backend/server.js)
-- ✅ [frontend/package.json](../../frontend/package.json)
+- ✅ [Dockerfile](Dockerfile)
+- ✅ [.dockerignore](.dockerignore)
+- ✅ [docker-compose.yml](docker-compose.yml)
+- ✅ [.env.example](.env.example)
+- ✅ [backend/package.json](backend/package.json)
+- ✅ [backend/server.js](backend/server.js)
+- ✅ [frontend/package.json](frontend/package.json)
 
 ---
 
@@ -263,4 +263,4 @@ Then provide secrets via:
 
 ## What's Next
 After Task 2 verification:
-→ Move to [Task 3: CI/CD Pipeline](TASK3.md)
+→ Move to [Task 3: CI/CD Pipeline](../task3/TASK3.md)

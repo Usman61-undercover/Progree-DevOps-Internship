@@ -171,9 +171,9 @@ C:\Users\usman\progree-devops-project/
 ├── .gitignore                # Git ignore rules
 ├── package.json              # Root workspace config
 ├── README.md                 # Full project documentation
-├── TASK2.md                  # Docker detailed guide
-├── TASK3.md                  # CI/CD detailed guide
-├── TASK4.md                  # Terraform + Kubernetes detailed guide
+├── task2/TASK2.md            # Docker detailed guide
+├── task3/TASK3.md            # CI/CD detailed guide
+├── task4/TASK4.md            # Terraform + Kubernetes detailed guide
 ├── backend/
 │   ├── package.json          # Node.js backend dependencies
 │   └── server.js             # Express.js API server

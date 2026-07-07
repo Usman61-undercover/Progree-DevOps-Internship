@@ -26,10 +26,10 @@
 
 | Task | Guide | Time | Focus |
 |------|-------|------|-------|
-| Task 2 | [TASK2.md](TASK2.md) | 30 min | Docker multi-stage build, container optimization |
-| Task 3 | [TASK3.md](TASK3.md) | 20 min | GitHub Actions CI/CD pipeline |
-| Task 4A | [TASK4.md](TASK4.md) Part A | 20 min | Terraform AWS VPC |
-| Task 4B | [TASK4.md](TASK4.md) Part B | 45 min | Kubernetes on Minikube |
+| Task 2 | [task2/TASK2.md](task2/TASK2.md) | 30 min | Docker multi-stage build, container optimization |
+| Task 3 | [task3/TASK3.md](task3/TASK3.md) | 20 min | GitHub Actions CI/CD pipeline |
+| Task 4A | [task4/TASK4.md](task4/TASK4.md) Part A | 20 min | Terraform AWS VPC |
+| Task 4B | [task4/TASK4.md](task4/TASK4.md) Part B | 45 min | Kubernetes on Minikube |
 
 ---
 
@@ -40,9 +40,9 @@
 EXECUTION_SUMMARY.md    ← Status of all deliverables
 README.md              ← Full project overview
 QUICKSTART.md          ← All commands reference
-TASK2.md               ← Docker detailed guide
-TASK3.md               ← CI/CD detailed guide
-TASK4.md               ← Terraform + Kubernetes detailed guide
+task2/TASK2.md         ← Docker detailed guide
+task3/TASK3.md         ← CI/CD detailed guide
+task4/TASK4.md         ← Terraform + Kubernetes detailed guide
 COMMANDS.md            ← Copy-paste commands
 ```
 
@@ -103,7 +103,7 @@ package-lock.json      ← Dependency lock file
 ### 👤 I'm New to DevOps
 1. Read [README.md](README.md) (10 min)
 2. Read [EXECUTION_SUMMARY.md](EXECUTION_SUMMARY.md) (5 min)
-3. Follow [TASK2.md](TASK2.md) step-by-step (30 min)
+3. Follow [task2/TASK2.md](task2/TASK2.md) step-by-step (30 min)
 4. Repeat for Tasks 3, 4A, 4B
 
 ### ⚡ I Want to Run Commands Fast
@@ -113,7 +113,7 @@ package-lock.json      ← Dependency lock file
 4. Capture screenshots
 
 ### 🔍 I Need to Fix Something
-1. Check [TASK*.md](TASK2.md) troubleshooting section
+1. Check [task2/TASK2.md](task2/TASK2.md) troubleshooting section
 2. Search [COMMANDS.md](COMMANDS.md) for related command
 3. Verify prerequisites in [EXECUTION_SUMMARY.md](EXECUTION_SUMMARY.md)
 
@@ -138,22 +138,22 @@ package-lock.json      ← Dependency lock file
 **Contains:** Architecture overview, all quick start sections, troubleshooting  
 **Time to read:** 15 minutes  
 
-### TASK2.md
-**What it is:** Detailed Docker guide with step-by-step execution  
-**Who needs it:** Task 2 execution  
-**Contains:** 12 numbered steps, troubleshooting, expected outputs, screenshots list  
+### task2/TASK2.md
+**What it is:** Detailed Docker guide with step-by-step execution
+**Who needs it:** Task 2 execution
+**Contains:** 12 numbered steps, troubleshooting, expected outputs, screenshots list
 **Time to read:** 5 minutes (then 25 min to execute)  
 
-### TASK3.md
-**What it is:** Detailed GitHub Actions guide  
-**Who needs it:** Task 3 execution  
-**Contains:** 12 numbered steps, workflow stages explained, troubleshooting  
+### task3/TASK3.md
+**What it is:** Detailed GitHub Actions guide
+**Who needs it:** Task 3 execution
+**Contains:** 12 numbered steps, workflow stages explained, troubleshooting
 **Time to read:** 5 minutes (then 15 min to execute)  
 
-### TASK4.md
-**What it is:** Detailed Terraform + Kubernetes guide  
-**Who needs it:** Task 4A and 4B execution  
-**Contains:** Part A (AWS), Part B (K8s), 11 steps per part, auto-scaling demo  
+### task4/TASK4.md
+**What it is:** Detailed Terraform + Kubernetes guide
+**Who needs it:** Task 4A and 4B execution
+**Contains:** Part A (AWS), Part B (K8s), 11 steps per part, auto-scaling demo
 **Time to read:** 10 minutes (then 60 min to execute)  
 
 ### QUICKSTART.md
@@ -189,10 +189,10 @@ Use this to verify everything is ready:
 ### First Time Users
 1. [EXECUTION_SUMMARY.md](EXECUTION_SUMMARY.md) — (5 min) Get overview
 2. [README.md](README.md) — (15 min) Understand architecture
-3. [TASK2.md](TASK2.md) — (35 min) Execute Docker task
+3. [task2/TASK2.md](task2/TASK2.md) — (35 min) Execute Docker task
 4. Take screenshots & screenshots for proof
-5. [TASK3.md](TASK3.md) — (20 min) Execute CI/CD task
-6. [TASK4.md](TASK4.md) — (65 min) Execute Terraform + Kubernetes
+5. [task3/TASK3.md](task3/TASK3.md) — (20 min) Execute CI/CD task
+6. [task4/TASK4.md](task4/TASK4.md) — (65 min) Execute Terraform + Kubernetes
 7. Compile final report with all screenshots
 
 ### Experienced Developers
@@ -228,15 +228,15 @@ Use this to verify everything is ready:
 ## 🔗 Cross-References
 
 ### Common Tasks
-**"How do I run Docker?"** → [TASK2.md](TASK2.md) Step 4  
-**"How do I push to GitHub?"** → [TASK3.md](TASK3.md) Step 6  
-**"How do I check Kubernetes pods?"** → [TASK4.md](TASK4.md) Part B, Step 7  
+**"How do I run Docker?"** → [task2/TASK2.md](task2/TASK2.md) Step 4  
+**"How do I push to GitHub?"** → [task3/TASK3.md](task3/TASK3.md) Step 6  
+**"How do I check Kubernetes pods?"** → [task4/TASK4.md](task4/TASK4.md) Part B, Step 7  
 **"Give me all commands"** → [COMMANDS.md](COMMANDS.md)  
 
 ### Troubleshooting
-**Docker issues** → [TASK2.md](TASK2.md) Troubleshooting section  
-**Pipeline not running** → [TASK3.md](TASK3.md) Troubleshooting section  
-**Kubernetes pods won't start** → [TASK4.md](TASK4.md) Part B, Troubleshooting  
+**Docker issues** → [task2/TASK2.md](task2/TASK2.md) Troubleshooting section  
+**Pipeline not running** → [task3/TASK3.md](task3/TASK3.md) Troubleshooting section  
+**Kubernetes pods won't start** → [task4/TASK4.md](task4/TASK4.md) Part B, Troubleshooting  
 **General issues** → [README.md](README.md) Troubleshooting section  
 
 ### Quick Reference
@@ -256,10 +256,10 @@ Use this to verify everything is ready:
 | 📖 Full understanding | [README.md](README.md) |
 | ⚡ Fast execution | [QUICKSTART.md](QUICKSTART.md) |
 | 📋 Just commands | [COMMANDS.md](COMMANDS.md) |
-| 🐳 Docker help | [TASK2.md](TASK2.md) |
-| 🔄 CI/CD help | [TASK3.md](TASK3.md) |
-| ☁️ Terraform help | [TASK4.md](TASK4.md) Part A |
-| 🐳 Kubernetes help | [TASK4.md](TASK4.md) Part B |
+| 🐳 Docker help | [task2/TASK2.md](task2/TASK2.md) |
+| 🔄 CI/CD help | [task3/TASK3.md](task3/TASK3.md) |
+| ☁️ Terraform help | [task4/TASK4.md](task4/TASK4.md) Part A |
+| 🐳 Kubernetes help | [task4/TASK4.md](task4/TASK4.md) Part B |
 | ✅ Status check | [EXECUTION_SUMMARY.md](EXECUTION_SUMMARY.md) |
 
 ---
@@ -267,7 +267,7 @@ Use this to verify everything is ready:
 ## 🎯 Next Steps
 
 1. **Right now:** Read [EXECUTION_SUMMARY.md](EXECUTION_SUMMARY.md) (5 min)
-2. **Next:** Choose your guide based on your pace (QUICKSTART vs TASK2.md)
+2. **Next:** Choose your guide based on your pace (QUICKSTART vs [task2/TASK2.md](task2/TASK2.md))
 3. **Start:** Follow the step-by-step instructions
 4. **Capture:** Take screenshots as you go
 5. **Compile:** Gather all screenshots for final report
@@ -276,9 +276,9 @@ Use this to verify everything is ready:
 
 ## 📞 Support
 
-- **Question about Docker?** → Check [TASK2.md](TASK2.md)
-- **Question about CI/CD?** → Check [TASK3.md](TASK3.md)
-- **Question about Infrastructure?** → Check [TASK4.md](TASK4.md)
+- **Question about Docker?** → Check [task2/TASK2.md](task2/TASK2.md)
+- **Question about CI/CD?** → Check [task3/TASK3.md](task3/TASK3.md)
+- **Question about Infrastructure?** → Check [task4/TASK4.md](task4/TASK4.md)
 - **Need all commands?** → Check [COMMANDS.md](COMMANDS.md)
 - **Lost?** → Start with [README.md](README.md)
 

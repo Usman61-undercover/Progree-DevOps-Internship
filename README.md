@@ -137,6 +137,7 @@ git push -u origin main
 
 ### Files
 - [.github/workflows/ci-cd.yml](.github/workflows/ci-cd.yml) — GitHub Actions workflow
+- [task3/TASK3.md](task3/TASK3.md) — CI/CD detailed guide
 
 ### Note on npm scripts
 If you get errors like `lint` or `test` not found:
@@ -144,7 +145,7 @@ If you get errors like `lint` or `test` not found:
 npm run lint  # Will show "Lint step placeholder" (add real linter as needed)
 npm test      # Will show "Test step placeholder" (add real tests as needed)
 ```
-For production, replace placeholders in [package.json](package.json) with real tools (ESLint, Jest, etc.).
+For production, replace placeholders in [task2/package.json](task2/package.json) with real tools (ESLint, Jest, etc.).
 
 ---
 
@@ -421,6 +422,8 @@ minikube stop
 4. **Task 4b**: Deploy to Minikube, verify all components, capture screenshots
 
 Good luck with your Progree internship! 🚀
-#   P r o g r e e - D e v O p s - I n t e r n s h i p  
- #   P r o g r e e - D e v O p s - I n t e r n s h i p  
+#   P r o g r e e - D e v O p s - I n t e r n s h i p 
+ 
+ #   P r o g r e e - D e v O p s - I n t e r n s h i p 
+ 
  

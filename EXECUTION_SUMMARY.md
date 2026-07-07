@@ -37,9 +37,9 @@
 
 ### Documentation Files
 - ✅ **README.md** — Full project overview + quick start
-- ✅ **TASK2.md** — Docker step-by-step guide with screenshots checklists
-- ✅ **TASK3.md** — GitHub Actions CI/CD detailed walkthrough
-- ✅ **TASK4.md** — Terraform + Kubernetes comprehensive guide
+- ✅ **task2/TASK2.md** — Docker step-by-step guide with screenshots checklists
+- ✅ **task3/TASK3.md** — GitHub Actions CI/CD detailed walkthrough
+- ✅ **task4/TASK4.md** — Terraform + Kubernetes comprehensive guide
 - ✅ **QUICKSTART.md** — All-in-one command reference
 
 ---
@@ -173,7 +173,7 @@ kubectl describe hpa myapp-hpa
 ## 📋 Verification Checklist
 
 ### Before Starting Each Task
-- [ ] Read task-specific documentation (TASK2.md, TASK3.md, TASK4.md)
+- [ ] Read task-specific documentation (task2/TASK2.md, task3/TASK3.md, task4/TASK4.md)
 - [ ] Verify all required tools installed
 - [ ] Allocate estimated time
 - [ ] Prepare for screenshots
@@ -214,9 +214,9 @@ kubectl describe hpa myapp-hpa
 C:\Users\usman\progree-devops-project/
 ├── README.md                        # Main documentation
 ├── QUICKSTART.md                    # All commands reference
-├── TASK2.md                         # Docker detailed guide
-├── TASK3.md                         # CI/CD detailed guide
-├── TASK4.md                         # Terraform + K8s guide
+├── task2/TASK2.md                   # Docker detailed guide
+├── task3/TASK3.md                   # CI/CD detailed guide
+├── task4/TASK4.md                   # Terraform + K8s guide
 ├── package.json                     # Root workspace
 ├── Dockerfile                       # Multi-stage build
 ├── docker-compose.yml              # Local dev services
@@ -325,7 +325,7 @@ After completing these tasks, you'll understand:
 
 All files are generated, dependencies installed, and documentation complete.
 
-**Next Step:** Start with [TASK2.md](TASK2.md) or jump to any task using the guides provided.
+**Next Step:** Start with [task2/TASK2.md](task2/TASK2.md) or jump to any task using the guides provided.
 
 **Estimated Total Time:** ~2.5 hours (all 4 tasks)
 

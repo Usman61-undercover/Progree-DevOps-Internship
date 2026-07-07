@@ -345,4 +345,4 @@ Check Actions tab — pipeline will run with real checks now.
 
 ## What's Next
 After Task 3 verification:
-→ Move to [Task 4: Infrastructure as Code + Kubernetes](TASK4.md)
+→ Move to [Task 4: Infrastructure as Code + Kubernetes](../task4/TASK4.md)
